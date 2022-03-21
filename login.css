@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    background-image: url("churchpic.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+}
+header {
+    padding-bottom: 60px;
+}
+
+div {
+    text-align: center;
+    padding-bottom: 5%;
+}
+h1{
+    color: #f38665;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+}
+h2 {
+    color:white;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    
+    
+}
+h3 {
+    color: grey;
+    text-align: center;
+    font-size: medium;
+}
+
+input[type=text] {
+    width: 400px;
+    padding: 12px 20px;
+    border: 2px solid rgb(199, 199, 199);
+    border-radius: 8px;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input[type=text]:focus, input[type=text]:hover {
+    border: 2px solid #ff681f;
+}
+input[type=password] {
+    width: 400px;
+    padding: 12px 20px;
+    border: 2px solid rgb(199, 199, 199);
+    border-radius: 8px;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input[type=password]:focus, input[type=password]:hover {
+    border: 2px solid #ff681f;
+}
+input[type=email] {
+    width: 400px;
+    padding: 12px 20px;
+    border: 2px solid rgb(199, 199, 199);
+    border-radius: 8px;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input[type=email]:focus, input[type=email]:hover {
+    border: 2px solid #ff681f;
+}
+a {
+    font-size: small;
+    text-align: start;
+    text-decoration: none;
+    margin-right: 225px;
+}
+#forgot {
+    width: 60px;
+    padding: 15px;
+    color:aquamarine;
+    border: none;
+    border-radius: 4px;
+    background-color: teal;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+a:hover {
+    color:rgb(255, 104, 31);
+}
+input[type=submit]{
+    width: 80px;
+    padding: 15px;
+    color: aquamarine;
+    border: none;
+    border-radius: 4px;
+    background-color: teal;
+    font-size: 12px;
+    cursor: pointer;
+}
+input[type=submit]:hover, button[type=button]:hover, #forgot:hover {
+    color:#ff681f;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button[type=button] {
+    width: 400px;
+    background-color: #ff681f;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.card {
+    
+    width: 35%;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    border: 1px black;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#gridview {
+    grid-gap: 15px 25px; 
+    height: 600px;
+    margin: 200px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 3fr 3fr 3fr;
+  }
+.cell {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    
+    padding: 16px;
+  }
+.cell-1 {
+    background: teal;
+  }
+.cell-2 {
+    background: teal;
+  }
+.cell-3 {
+    background: teal;
+  }
+.cell-4 {
+    background: teal;
+  }
+.cell-5 {
+    background: teal;
+  }
+.cell-6 {
+    background: teal;
+  }
+  
