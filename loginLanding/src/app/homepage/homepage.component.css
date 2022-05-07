@@ -7,9 +7,10 @@ body {
     margin: 0;
     overflow: hidden;
     height: 100%;
+    
 }
 header {
-    padding-bottom: 120px;
+    padding-bottom: 10px;
 }
 
 div {
@@ -20,13 +21,18 @@ h1{
     color: #f38665;
     text-shadow: 2px 2px 5px black;
     text-align: center;
+    cursor: pointer;
 }
 h2 {
     color:white;
     text-align: center;
     text-shadow: 2px 2px 5px black;
-
 }
 mat-grid-tile {
     background: teal;
+    flex: 0 0 50%;
+    max-width: 50%;
+    justify-content:center !important ;
+   align-items:center !important;
   }
+
