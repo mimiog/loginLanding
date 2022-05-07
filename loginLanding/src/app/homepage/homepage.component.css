@@ -32,7 +32,9 @@ mat-grid-tile {
     background: teal;
     flex: 0 0 50%;
     max-width: 50%;
+    margin-bottom: 1rem !important;
     justify-content:center !important ;
    align-items:center !important;
+   box-sizing: border-box;
   }
 
