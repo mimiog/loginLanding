@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    background-image: url("../../assets/churchpic.JPG"); 
+    background-size:cover;
+    background-attachment: fixed;
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+}
+header {
+    padding-bottom: 120px;
+}
+
+div {
+    text-align: center;
+    padding-bottom: 5%;
+}
+h1{
+    color: #f38665;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+}
+h2 {
+    color:white;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+
+}
+mat-grid-tile {
+    background: teal;
+  }
