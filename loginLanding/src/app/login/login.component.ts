@@ -19,11 +19,12 @@ export class LoginComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    console.log();
   }
 
-  async login() {
-    await this.authService.login(this.loginDto);
-  }
+  // async login() {
+  //   // await this.authService.login(this.loginDto);
+  // }
 
   change(event: any, attribute: string) {
     if (event.target.value) {
