@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  apiURL: 'https://cop-auth-service-jjdzj.ondigitalocean.app',
+  host: 'localhost'
 };
