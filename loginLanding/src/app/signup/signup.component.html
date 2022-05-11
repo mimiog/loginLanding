@@ -1,1 +1,56 @@
-<p>signup works!</p>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Log in</title>
+    </head>
+    <body>
+        <header>
+            <h1>Church of Philippi</h1>
+        </header>
+        <h2>Sign Up</h2>
+        <div class="container">
+            
+                <div id="user">
+                    <input type="text" name="username" placeholder="Username/Email" required><br>
+                </div>
+                <div id="pass">
+                    <input type="password" name="username" placeholder="Password" required><br>
+                </div>
+                <div id="end">
+                    <button id="signup" type="submit" routerLink="/login" routerLinkActive="active">Sign Up</button>
+                </div>
+        </div>
+    </body>
+</html>
+<!--
+<div>
+    <mat-form-field appearance="outline">
+        <mat-label>Username</mat-label>
+        <input
+            matInput
+            placeholder="username"
+            (change)="change($event, 'username')"
+            [required]="true"
+            [value]="loginDto.username"
+            (blur)="change($event, 'username')"
+        >
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Password</mat-label>
+        <input 
+            matInput 
+            placeholder="Password"
+            (change)="change($event, 'password')"
+            [required]="true"
+            [value]="loginDto.password"
+            (blur)="change($event, 'password')"
+        >
+    </mat-form-field>
+</div>
+
+<div>
+    <button mat-flat-button mat-dialog-close (click)="login()">Login</button>
+</div>
+-->
+

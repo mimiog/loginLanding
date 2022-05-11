@@ -4,7 +4,7 @@
         <title>Log in</title>
     </head>
     <body>
-        <header class="container">
+        <header>
             <h1>Church of Philippi</h1>
         </header>
         <h2>Log in</h2>
@@ -17,9 +17,10 @@
                     <input type="password" name="username" placeholder="Password" required><br>
                 </div>
                 <div id="end">
-                    <a id="forgot" routerLink="/forgotPassword" routerLinkActive="active">Forgot Password?</a>
-                    <a type="submit" routerLink="/homepage" routerLinkActive="active">Login</a>
-                    <a type="signup" routerLink="/signup" routerLinkActive="active">Register</a>
+                    <button id="forgot" routerLink="/forgotPassword" routerLinkActive="active">Forgot Password?</button>
+                    <button id="login" type="submit" routerLink="/homepage" routerLinkActive="active">Login</button>
+                    <hr>
+                    <button id="register" type="signup" routerLink="/signup" routerLinkActive="active">Register</button>
                 </div>
         </div>
     </body>

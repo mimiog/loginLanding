@@ -2,18 +2,31 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
     background-image: url("../../assets/churchpic.JPG"); 
-    background-size:cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: 0;
+    margin: -40px;
+    text-align: center;
 }
 header {
-    padding-bottom: 150px;
+    padding-top: 37px;
+    padding-bottom: 38.7px;
 }
 
 div {
     text-align: center;
-    padding-bottom: 5%;
+    padding-bottom: 15%;
+    width: 446px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.container {
+    padding-bottom: 40px;
+    height: 400px;
+    width: 400px;
+}
+
 h1{
     color: #f38665;
     text-shadow: 2px 2px 5px black;
@@ -72,15 +85,47 @@ a {
     text-decoration: none;
     margin-right: 225px;
 }
-#forgot {
-    width: 60px;
+
+#end {
+    text-align: left;
+}
+
+button {
+    width: 100px;
+    height: 60px;
     padding: 15px;
-    color:aquamarine;
     border: none;
     border-radius: 4px;
-    background-color: teal;
     font-size: 12px;
     cursor: pointer;
+    vertical-align: middle;
+}
+
+#forgot {
+    color:white;
+    background-color: #456563;
+}
+
+#login {
+    background-color: #ff681f;
+    color: white;
+    margin-left: 239px;
+    font-size: 17px;
+}
+
+#register {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #688ccb;
+    color: white;
+    font-size: 17px;
+}
+
+hr {
+    height: 2px;
+    background-color: white;
+    border: none;
+    margin-top: 20px;
 }
 
 a:hover {
