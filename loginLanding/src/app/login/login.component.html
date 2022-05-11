@@ -8,7 +8,7 @@
             <h1>Church of Philippi</h1>
         </header>
         <h2>Log in</h2>
-        <div class="container">
+        <!-- <div class="container">
             
                 <div id="user">
                     <input type="text" name="username" placeholder="Username/Email" required><br>
@@ -22,38 +22,44 @@
                     <hr>
                     <button id="register" type="signup" routerLink="/signup" routerLinkActive="active">Register</button>
                 </div>
+        </div> -->
+
+        <div class="container">
+            <mat-form-field appearance="outline">
+                <mat-label>Username</mat-label>
+                <input
+                    matInput
+                    type="text"
+                    placeholder="Username"
+                    (change)="change($event, 'username')"
+                    [required]="true"
+                    [value]="loginDto.username"
+                    (blur)="change($event, 'username')"
+                >
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Password</mat-label>
+                <input 
+                    matInput
+                    type="password" 
+                    placeholder="Password"
+                    (change)="change($event, 'password')"
+                    [required]="true"
+                    [value]="loginDto.password"
+                    (blur)="change($event, 'password')"
+                >
+            </mat-form-field>
+
+            <div id="end">
+                <button id="forgot" routerLink="/forgotPassword" routerLinkActive="active">Forgot Password?</button>
+                <button mat-flat-button mat-dialog-close id="login" (click)="login()">Login</button>
+                <hr>
+                <button id="register" type="signup" routerLink="/signup" routerLinkActive="active">Register</button>
+            </div>
+
         </div>
     </body>
 </html>
-<!--
-<div>
-    <mat-form-field appearance="outline">
-        <mat-label>Username</mat-label>
-        <input
-            matInput
-            placeholder="username"
-            (change)="change($event, 'username')"
-            [required]="true"
-            [value]="loginDto.username"
-            (blur)="change($event, 'username')"
-        >
-    </mat-form-field>
 
-    <mat-form-field appearance="outline">
-        <mat-label>Password</mat-label>
-        <input 
-            matInput 
-            placeholder="Password"
-            (change)="change($event, 'password')"
-            [required]="true"
-            [value]="loginDto.password"
-            (blur)="change($event, 'password')"
-        >
-    </mat-form-field>
-</div>
-
-<div>
-    <button mat-flat-button mat-dialog-close (click)="login()">Login</button>
-</div>
--->
 
