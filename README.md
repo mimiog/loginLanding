@@ -1,7 +1,3 @@
 # 412-GroupProject
-This is a repository for group 2's COSC412 project. 
+This is a repository for the login and landiing page for group 2's COSC412 project. 
 
-
-03/01/2022
-
-We have the login page and a landing page. We need to create the dropdown menus. 
